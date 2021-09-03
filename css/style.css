@@ -560,4 +560,68 @@ h1, h2, h3, h4, h5, h6, p{
     }
 }
 
-/* popup */
+
+/* vacatures */
+#wrapper
+{
+    width: 65%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#content
+{
+    background: #f9f9f9;
+    height: 600px;
+    border: 1px solid #f9f9f9;
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 200px;
+    -webkit-box-shadow: 5px 5px 15px 5px #0000009a; 
+    box-shadow: 5px 5px 15px 5px #00000075;
+}
+
+#body-background
+{
+background-image: url("https://oppermancatering.nl/wp-content/uploads/2021/05/Patat.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#terug-naar-home
+{
+    margin-left: 43%;
+}
+
+@media only screen and (max-width: 600px)
+ {
+    #wrapper
+    {
+        width: 100%;
+    }
+    #terug-naar-home
+    {
+        margin-left: 33%;
+    }
+}
+
+#vacatures a
+{
+    color: white;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-family: var(--Poppins);
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 991px)
+{
+    #vacatures a
+    {
+        color: var(--dark);
+    }
+}
+
+
+
